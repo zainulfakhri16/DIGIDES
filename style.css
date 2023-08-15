@@ -1,0 +1,130 @@
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+.login {
+    height: 100vh;
+}
+
+h1 {
+    color: #232222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 43px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.login-form input {
+    display: flex;
+    height: 84px;
+    padding: 12px 18px;
+    align-items: center;
+    gap: 7.5px;
+    border-radius: 7.5px;
+    background: #F5F5F5;
+    margin-top: 18px;
+
+    color: #524F4F;
+    font-family: Mukta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.5px;
+}
+
+.login-form .signin {
+    width: 100%;
+    height: 90px;
+    padding: 18px;
+    align-items: center;
+    border-radius: 7.5px;
+    border: 0px;
+    background: #327A6D;
+    margin-top: 30px;
+
+    color: #FFFF;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.login-form .signin-scan {
+    display: flex;
+    width: 100%;
+    height: 102px;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5px;
+    flex-shrink: 0;
+    border: 0;
+    background: #FFF;
+    margin-top: 82px;
+    box-shadow: 0px 3.000000476837158px 18.750001907348633px 0px rgba(0, 0, 0, 0.10);
+
+    color: #327A6D;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.login-form .signin-scan .icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 87px;
+}
+
+.copyright .left-text {
+    color: #000;
+    font-family: Hanken Grotesk;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.copyright .right-text {
+    margin-left: 2px;
+    color: #327A6D;
+    font-family: Hanken Grotesk;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.login .front{
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.login .front img{
+    position: absolute;
+    object-fit: cover;
+    height: 77px;
+    width: 77px;
+    
+}
+
+.login .row{
+    align-items: center;
+}
