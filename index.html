@@ -1,79 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="" href="style.css" />
 
-  <link rel="stylesheet" type="" href="style.css">
+		<!-- font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 
-  <!-- font-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
+		<title>LAYANAN MANDIRI DESA (LA-MANDI)</title>
+	</head>
 
-  <title>LAYANAN MANDIRI DESA (LA-MANDI)</title>
-</head>
+	<body>
+		<section class="login row">
+			<div class="login-left col-md-6 w-50">
+				<div class="row">
+					<img src="asset/bg.png" class="d-block w-100" alt="" />
+					<div class="front d-flex justify-content-center align-items-center">
+						<img src="asset/logo.png" alt="" style="margin-bottom: 150px" />
+						<p class="text-light fw-bold">LAYANAN MANDIRI DESA (LA MANDI)</p>
+					</div>
+				</div>
+			</div>
 
-<body>
+			<div class="login-right w-50 col-md-6">
+				<div class="row justify-content-center">
+					<div class="col-9">
+						<div class="header">
+							<h1>Selamat Datang</h1>
+						</div>
 
-  <section class="login d-flex">
-    <div class="login-left w-50 ">
-      <div class="row">
+						<div class="login-form">
+							<input
+								type="text"
+								class="form-control"
+								id="nama"
+								placeholder="Masukkan nama (Sesuai KTP)"
+							/>
 
-          <img src="asset/bg.png" class="d-block w-100" alt="">
-          <div class="front">
-            <img src="asset/logo.png" alt="">
-          </div>
-      </div>
-    </div>
+							<input
+								type="number"
+								class="form-control"
+								id="ktp"
+								placeholder="Masukkan No KTP"
+							/>
 
-    
-    <div class="login-right w-50 ">
+							<button class="signin">Masuk</button>
+							<button class="signin-scan">
+								<img class="icon" src="asset/body-scan-fill.png" alt="" />
+								Scan KTP
+							</button>
+						</div>
+						<div class="copyright">
+							<div class="left-text">&copy; 2023 Powered by</div>
+							<div class="right-text">PT Digital Desa Indonesia</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="header">
-            <h1>Selamat Datang</h1>
-          </div>
-
-          <div class="login-form">
-            <input type="text" class="form-control" id="nama" placeholder="Masukkan nama (Sesuai KTP)">
-
-            <input type="number" class="form-control" id="ktp" placeholder="Masukkan No KTP">
-
-            <button class="signin">Masuk</button>
-            <button class="signin-scan">
-              <img class="icon" src="asset/body-scan-fill.png" alt="">
-              Scan KTP</button>
-          </div>
-          <div class="copyright">
-            <div class="left-text">&copy; 2023 Powered by </div>
-            <div class="right-text"> PT Digital Desa Indonesia</div>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-</body>
-
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
